@@ -1,0 +1,370 @@
+<log4j:event logger="com.liferay.portal.spring.context.PortalContextLoaderListener" timestamp="1744720315455" level="INFO" thread="main">
+<log4j:message><![CDATA[JVM arguments: --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=jdk.zipfs/jdk.nio.zipfs=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Djava.util.logging.config.file=C:\environments\liferay-course-pages-navigation\bundles\tomcat\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dsun.io.useCanonCaches=false -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=C:\environments\liferay-course-pages-navigation\bundles\tomcat -Dcatalina.home=C:\environments\liferay-course-pages-navigation\bundles\tomcat -Djava.io.tmpdir=C:\environments\liferay-course-pages-navigation\bundles\tomcat\temp]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.spring.hibernate.DialectDetector" timestamp="1744720317670" level="WARN" thread="SystemExecutorServiceUtil-1">
+<log4j:message><![CDATA[Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.spring.hibernate.DialectDetector" method="getDialect" file="DialectDetector.java" line="73"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.spring.hibernate.DialectDetector" timestamp="1744720317672" level="INFO" thread="SystemExecutorServiceUtil-1">
+<log4j:message><![CDATA[Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.spring.hibernate.DialectDetector" method="getDialect" file="DialectDetector.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1744720319425" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1355"/>
+</log4j:event>
+
+<log4j:event logger="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" timestamp="1744720320823" level="INFO" thread="main">
+<log4j:message><![CDATA[Configured directory for secrets: C:/environments/liferay-course-pages-navigation/bundles/osgi/configs]]></log4j:message>
+<log4j:locationInfo class="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" method="&lt;init&gt;" file="InterpolationConfigurationPlugin.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1744720321498" level="INFO" thread="main">
+<log4j:message><![CDATA[Started initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1645"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1744720321501" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1690"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" timestamp="1744720322018" level="INFO" thread="main">
+<log4j:message><![CDATA[Stopping blacklisted bundle com.liferay.antivirus.async.store_5.0.0 [153]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" method="_processBundle" file="BundleBlacklist.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" timestamp="1744720331411" level="INFO" thread="main">
+<log4j:message><![CDATA[Stopping blacklisted bundle com.liferay.marketplace.app.manager.web_5.0.50 [852]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" method="_processBundle" file="BundleBlacklist.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" timestamp="1744720331440" level="INFO" thread="main">
+<log4j:message><![CDATA[Stopping blacklisted bundle com.liferay.marketplace.store.web_7.0.48 [855]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" method="_processBundle" file="BundleBlacklist.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" timestamp="1744720332417" level="INFO" thread="main">
+<log4j:message><![CDATA[Stopping blacklisted bundle com.liferay.plugins.admin.web_5.0.38 [939]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" method="_processBundle" file="BundleBlacklist.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" timestamp="1744720333395" level="INFO" thread="main">
+<log4j:message><![CDATA[Stopping blacklisted bundle com.liferay.portal.scripting.groovy_6.0.13 [1038]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" method="_processBundle" file="BundleBlacklist.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" timestamp="1744720346408" level="INFO" thread="Start Level: Equinox Container: 75204548-26f2-4392-b8ed-0a04362b0925">
+<log4j:message><![CDATA[Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~clarity-distributor-mgmt-batch-oauth-application-headless-server]]></log4j:message>
+<log4j:locationInfo class="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" method="modifyConfiguration" file="InterpolationConfigurationPlugin.java" line="135"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.search.elasticsearch7.internal.sidecar.SidecarManager" timestamp="1744720348169" level="WARN" thread="Start Level: Equinox Container: 75204548-26f2-4392-b8ed-0a04362b0925">
+<log4j:message><![CDATA[Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.search.elasticsearch7.internal.sidecar.SidecarManager" method="applyConfigurations" file="SidecarManager.java" line="70"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1744720355258" level="INFO" thread="main">
+<log4j:message><![CDATA[Started dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1713"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1744720355260" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting web bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1720"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" timestamp="1744720358092" level="INFO" thread="main">
+<log4j:message><![CDATA[Stopping blacklisted bundle com.liferay.antivirus.async.store_5.0.0 [1455]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" method="_processBundle" file="BundleBlacklist.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" timestamp="1744720358115" level="INFO" thread="main">
+<log4j:message><![CDATA[Stopping blacklisted bundle com.liferay.marketplace.app.manager.web_5.0.50 [1456]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" method="_processBundle" file="BundleBlacklist.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" timestamp="1744720358134" level="INFO" thread="main">
+<log4j:message><![CDATA[Stopping blacklisted bundle com.liferay.marketplace.store.web_7.0.48 [1457]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" method="_processBundle" file="BundleBlacklist.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" timestamp="1744720358148" level="INFO" thread="main">
+<log4j:message><![CDATA[Stopping blacklisted bundle com.liferay.plugins.admin.web_5.0.38 [1458]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" method="_processBundle" file="BundleBlacklist.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" timestamp="1744720358161" level="INFO" thread="main">
+<log4j:message><![CDATA[Stopping blacklisted bundle com.liferay.portal.scripting.groovy_6.0.13 [1459]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bundle.blacklist.internal.BundleBlacklist" method="_processBundle" file="BundleBlacklist.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1744720358168" level="INFO" thread="main">
+<log4j:message><![CDATA[Started web bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1774"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1744720358170" level="INFO" thread="main">
+<log4j:message><![CDATA[Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="startFramework" file="ModuleFrameworkImpl.java" line="283"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.events.StartupHelperUtil" timestamp="1744720359807" level="INFO" thread="main">
+<log4j:message><![CDATA[There are no patches installed]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.events.StartupHelperUtil" method="printPatchLevel" file="StartupHelperUtil.java" line="100"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.license.LicenseManager" timestamp="1744720359930" level="INFO" thread="main">
+<log4j:message><![CDATA[No binary licenses found]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.license.LicenseManager" method="a" file="null" line="-1"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1744720360483" level="INFO" thread="main">
+<log4j:message><![CDATA[Auto deploy scanner started for C:\environments\liferay-course-pages-navigation\bundles\deploy]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="start" file="AutoDeployDir.java" line="152"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.search.elasticsearch7.internal.sidecar.Sidecar" timestamp="1744720362856" level="INFO" thread="SystemExecutorServiceUtil-4">
+<log4j:message><![CDATA[Sidecar Elasticsearch 7.17.26 liferay_sidecar started at 127.0.0.1:9201]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.search.elasticsearch7.internal.sidecar.Sidecar" method="start" file="Sidecar.java" line="100"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.messaging.internal.ParallelDestination" timestamp="1744720371545" level="ERROR" thread="liferay/dispatch/executor-2">
+<log4j:message><![CDATA[Unable to process message {destinationName=liferay/dispatch/executor, response=null, responseDestinationName=null, responseId=null, payload={"dispatchTriggerId": 31601}, values={GROUP_NAME=DISPATCH_GROUP_0031601@63456417597051, companyId=63456417597051, groupId=0, DESTINATION_NAME=liferay/dispatch/executor, JOB_STATE=com.liferay.portal.kernel.scheduler.JobState@735d9a7a, STORAGE_TYPE=PERSISTED, JOB_NAME=DISPATCH_JOB_0031601@63456417597051}}]]></log4j:message>
+<log4j:throwable><![CDATA[com.liferay.portal.kernel.messaging.MessageListenerException: com.liferay.dispatch.exception.NoSuchTriggerException: No DispatchTrigger exists with the primary key 31601
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:32)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:62)
+	at com.liferay.portal.messaging.internal.ParallelDestination$1.run(ParallelDestination.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.liferay.dispatch.exception.NoSuchTriggerException: No DispatchTrigger exists with the primary key 31601
+	at com.liferay.dispatch.service.persistence.impl.DispatchTriggerPersistenceImpl.findByPrimaryKey(DispatchTriggerPersistenceImpl.java:8146)
+	at com.liferay.dispatch.service.persistence.impl.DispatchTriggerPersistenceImpl.findByPrimaryKey(DispatchTriggerPersistenceImpl.java:8164)
+	at com.liferay.dispatch.service.impl.DispatchTriggerLocalServiceImpl.getDispatchTrigger(DispatchTriggerLocalServiceImpl.java:206)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:41)
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:60)
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48)
+	at com.liferay.change.tracking.internal.aop.CTTransactionAdvice.invoke(CTTransactionAdvice.java:70)
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48)
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:40)
+	at jdk.proxy99/jdk.proxy99.$Proxy452.getDispatchTrigger(Unknown Source)
+	at com.liferay.dispatch.internal.messaging.DispatchMessageListener.doReceive(DispatchMessageListener.java:47)
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.doReceive(BaseMessageListener.java:39)
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:25)
+	... 5 more
+]]></log4j:throwable>
+<log4j:locationInfo class="com.liferay.portal.messaging.internal.ParallelDestination$1" method="run" file="ParallelDestination.java" line="50"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.license.LicenseManager" timestamp="1744720375414" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[DXP Development license validation passed]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.license.LicenseManager" method="a" file="null" line="-1"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.license.LicenseManager" timestamp="1744720375415" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[License registered for DXP Development]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.license.LicenseManager" method="registerLicense" file="null" line="-1"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1744720375457" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for C:\environments\liferay-course-pages-navigation\bundles\tomcat\temp\20250415123255418FWVGGCFZ\admin-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="34"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl" timestamp="1744720376326" level="INFO" thread="SystemExecutorServiceUtil-14">
+<log4j:message><![CDATA[Started batch engine import task 2401]]></log4j:message>
+<log4j:locationInfo class="com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl" method="execute" file="BatchEngineImportTaskExecutorImpl.java" line="95"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1744720376755" level="INFO" thread="SystemExecutorServiceUtil-3">
+<log4j:message><![CDATA[OAuth 2 application with external reference code clarity-distributor-mgmt-batch-oauth-application-headless-server and company ID 16796623585306 has client ID id-2ed863dc-48a2-3641-ca63-5149661f9da]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="201"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1744720383345" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for C:\environments\liferay-course-pages-navigation\bundles\tomcat\temp\20250415123255418FWVGGCFZ\admin-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="41"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1744720384426" level="INFO" thread="SystemExecutorServiceUtil-3">
+<log4j:message><![CDATA[OAuth 2 application with external reference code clarity-distributor-mgmt-batch-oauth-application-headless-server and company ID 16796623585306 has client ID id-2ed863dc-48a2-3641-ca63-5149661f9da]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="201"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1744720384446" level="INFO" thread="SystemExecutorServiceUtil-14">
+<log4j:message><![CDATA[OAuth 2 application with external reference code clarity-distributor-mgmt-batch-oauth-application-headless-server and company ID 16796623585306 has client ID id-2ed863dc-48a2-3641-ca63-5149661f9da]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="201"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1744720384678" level="INFO" thread="SystemExecutorServiceUtil-14">
+<log4j:message><![CDATA[OAuth 2 application with external reference code clarity-distributor-mgmt-batch-oauth-application-headless-server and company ID 16796623585306 has client ID id-2ed863dc-48a2-3641-ca63-5149661f9da]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="201"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1744720385445" level="INFO" thread="SystemExecutorServiceUtil-14">
+<log4j:message><![CDATA[OAuth 2 application with external reference code clarity-distributor-mgmt-batch-oauth-application-headless-server and company ID 16796623585306 has client ID id-2ed863dc-48a2-3641-ca63-5149661f9da]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="201"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1744720385609" level="INFO" thread="SystemExecutorServiceUtil-14">
+<log4j:message><![CDATA[OAuth 2 application with external reference code clarity-distributor-mgmt-batch-oauth-application-headless-server and company ID 16796623585306 has client ID id-2ed863dc-48a2-3641-ca63-5149661f9da]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="201"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1744720386276" level="INFO" thread="SystemExecutorServiceUtil-14">
+<log4j:message><![CDATA[OAuth 2 application with external reference code clarity-distributor-mgmt-batch-oauth-application-headless-server and company ID 16796623585306 has client ID id-2ed863dc-48a2-3641-ca63-5149661f9da]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="201"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1744720386425" level="INFO" thread="SystemExecutorServiceUtil-14">
+<log4j:message><![CDATA[OAuth 2 application with external reference code clarity-distributor-mgmt-batch-oauth-application-headless-server and company ID 16796623585306 has client ID id-2ed863dc-48a2-3641-ca63-5149661f9da]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="201"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1744720386963" level="INFO" thread="SystemExecutorServiceUtil-14">
+<log4j:message><![CDATA[OAuth 2 application with external reference code clarity-distributor-mgmt-batch-oauth-application-headless-server and company ID 16796623585306 has client ID id-2ed863dc-48a2-3641-ca63-5149661f9da]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="201"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1744720387122" level="INFO" thread="SystemExecutorServiceUtil-14">
+<log4j:message><![CDATA[OAuth 2 application with external reference code clarity-distributor-mgmt-batch-oauth-application-headless-server and company ID 16796623585306 has client ID id-2ed863dc-48a2-3641-ca63-5149661f9da]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="201"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl" timestamp="1744720387494" level="INFO" thread="SystemExecutorServiceUtil-14">
+<log4j:message><![CDATA[Finished batch engine import task 2401 in 11164ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl" method="execute" file="BatchEngineImportTaskExecutorImpl.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1744720387952" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for C:\environments\liferay-course-pages-navigation\bundles\tomcat\temp\20250415123307926KHZCFMQW\classic-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="34"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1744720394054" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for C:\environments\liferay-course-pages-navigation\bundles\tomcat\temp\20250415123307926KHZCFMQW\classic-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="41"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1744720397077" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for C:\environments\liferay-course-pages-navigation\bundles\tomcat\temp\20250415123317044YOYAEVEI\dialect-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="34"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1744720402782" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for C:\environments\liferay-course-pages-navigation\bundles\tomcat\temp\20250415123317044YOYAEVEI\dialect-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="41"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1744720405636" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for C:\environments\liferay-course-pages-navigation\bundles\tomcat\temp\20250415123325562SOEZXEHV\minium-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="34"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1744720410695" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for C:\environments\liferay-course-pages-navigation\bundles\tomcat\temp\20250415123325562SOEZXEHV\minium-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="41"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1744720413953" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for C:\environments\liferay-course-pages-navigation\bundles\tomcat\temp\20250415123333907MDEAIWWJ\speedwell-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="34"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1744720419793" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for C:\environments\liferay-course-pages-navigation\bundles\tomcat\temp\20250415123333907MDEAIWWJ\speedwell-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="41"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1744720423606" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STARTED classic-theme_5.0.105 [1462]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="68"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1744720423609" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STARTED advancedcxdemo_7.4.13 [1460]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="68"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1744720423624" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STARTED admin-theme_5.0.91 [1461]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="68"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.dependency.manager.DependencyManagerSyncUtil" timestamp="1744720423637" level="INFO" thread="main">
+<log4j:message><![CDATA[Available checkers: [AOP Service Registrar System Checker, Declarative Service Soft Circular Dependency System Checker, Declarative Service Unsatisfied Component System Checker, Spring Extender Unavailable Component System Checker, Pending Upgrade System Checker]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1744720423655" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STARTED minium-theme_5.0.98 [1464]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="68"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.dependency.manager.DependencyManagerSyncUtil" timestamp="1744720423664" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "AOP Service Registrar System Checker". You can run this by itself with command "aop:failures" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.dependency.manager.DependencyManagerSyncUtil" timestamp="1744720423671" level="INFO" thread="main">
+<log4j:message><![CDATA[AOP Service Registrar System Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.dependency.manager.DependencyManagerSyncUtil" timestamp="1744720423674" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Declarative Service Soft Circular Dependency System Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1744720423692" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STARTED speedwell-theme_4.0.92 [1465]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="68"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1744720423742" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STARTED dialect-theme_5.0.91 [1463]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="68"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.dependency.manager.DependencyManagerSyncUtil" timestamp="1744720427602" level="INFO" thread="main">
+<log4j:message><![CDATA[Declarative Service Soft Circular Dependency System Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.dependency.manager.DependencyManagerSyncUtil" timestamp="1744720427602" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Declarative Service Unsatisfied Component System Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.dependency.manager.DependencyManagerSyncUtil" timestamp="1744720435488" level="INFO" thread="main">
+<log4j:message><![CDATA[Declarative Service Unsatisfied Component System Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.dependency.manager.DependencyManagerSyncUtil" timestamp="1744720435489" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Spring Extender Unavailable Component System Checker". You can run this by itself with command "dm na" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.dependency.manager.DependencyManagerSyncUtil" timestamp="1744720435492" level="INFO" thread="main">
+<log4j:message><![CDATA[Spring Extender Unavailable Component System Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.dependency.manager.DependencyManagerSyncUtil" timestamp="1744720435492" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Pending Upgrade System Checker". You can run this by itself with command "upgrade:pending" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.dependency.manager.DependencyManagerSyncUtil" timestamp="1744720435845" level="INFO" thread="main">
+<log4j:message><![CDATA[Pending Upgrade System Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+

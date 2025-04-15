@@ -1,0 +1,25 @@
+2025-04-15 12:32:51.545 ERROR [liferay/dispatch/executor-2][ParallelDestination:50] Unable to process message {destinationName=liferay/dispatch/executor, response=null, responseDestinationName=null, responseId=null, payload={"dispatchTriggerId": 31601}, values={GROUP_NAME=DISPATCH_GROUP_0031601@63456417597051, companyId=63456417597051, groupId=0, DESTINATION_NAME=liferay/dispatch/executor, JOB_STATE=com.liferay.portal.kernel.scheduler.JobState@735d9a7a, STORAGE_TYPE=PERSISTED, JOB_NAME=DISPATCH_JOB_0031601@63456417597051}}
+com.liferay.portal.kernel.messaging.MessageListenerException: com.liferay.dispatch.exception.NoSuchTriggerException: No DispatchTrigger exists with the primary key 31601
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:32) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:62) ~[portal-kernel.jar:?]
+	at com.liferay.portal.messaging.internal.ParallelDestination$1.run(ParallelDestination.java:47) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: com.liferay.dispatch.exception.NoSuchTriggerException: No DispatchTrigger exists with the primary key 31601
+	at com.liferay.dispatch.service.persistence.impl.DispatchTriggerPersistenceImpl.findByPrimaryKey(DispatchTriggerPersistenceImpl.java:8146) ~[?:?]
+	at com.liferay.dispatch.service.persistence.impl.DispatchTriggerPersistenceImpl.findByPrimaryKey(DispatchTriggerPersistenceImpl.java:8164) ~[?:?]
+	at com.liferay.dispatch.service.impl.DispatchTriggerLocalServiceImpl.getDispatchTrigger(DispatchTriggerLocalServiceImpl.java:206) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:41) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:60) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.change.tracking.internal.aop.CTTransactionAdvice.invoke(CTTransactionAdvice.java:70) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:40) ~[portal-impl.jar:?]
+	at jdk.proxy99.$Proxy452.getDispatchTrigger(Unknown Source) ~[?:?]
+	at com.liferay.dispatch.internal.messaging.DispatchMessageListener.doReceive(DispatchMessageListener.java:47) ~[?:?]
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.doReceive(BaseMessageListener.java:39) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:25) ~[portal-kernel.jar:?]
+	... 5 more
