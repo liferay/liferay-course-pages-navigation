@@ -5,3 +5,4 @@
 /bundles/tomcat/temp
 **/*.log
 /bundles/data/elasticsearch7
+/bundles/tomcat/work/
