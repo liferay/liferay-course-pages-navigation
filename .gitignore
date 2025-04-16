@@ -1,1 +1,7 @@
 /bundles/osgi/state
+/bundles/data/hypersonic/lportal.properties
+/bundles/logs
+/bundles/tomcat/logs
+/bundles/tomcat/temp
+**/*.log
+/bundles/data/elasticsearch7
